@@ -1,0 +1,25 @@
+datos = '''
+{
+  "iam_users": [
+    {"name": "aakashSignh",   "email":"asingh@tradeprint.co.uk"},
+    {"name": "alivie",        "email":"alivie@tradeprint.co.uk"},
+    {"name": "ansaarYounis",  "email":"ayounis@tradeprint.co.uk"},
+    {"name": "craigCallow",   "email":"ccallow@tradeprint.co.uk"},
+    {"name": "danHandland",   "email":"dhadland@tradeprint.co.uk"},
+    {"name": "jerinJoseph",   "email":"jjoseph@tradeprint.co.uk"},
+    {"name": "martynGeddes",  "email":"mgeddes@tradeprint.co.uk"},
+    {"name": "miroslawMajka", "email":"mmajka@tradeprint.co.uk"},
+    {"name": "reginaCherian", "email":"rcherian@tradeprint.co.uk"},
+    {"name": "richardSproson","email":"rsproson@tradeprint.co.uk"},
+    {"name": "scottJohnson",  "email":"sjohnson@tradeprint.co.uk"},
+    {"name": "steeveRoucaute","email":"sroucaute@tradeprint.co.uk"},
+    {"name": "VipulTiwari",   "email":"vtiwari@tradeprint.co.uk"}
+  ]
+}
+'''
+
+#use this command to update the policy
+
+#aws secretsmanager put-resource-policy --secret-id iamsecrets --resource-policy file://secretpolicy.json
+#https://docs.aws.amazon.com/se
+
